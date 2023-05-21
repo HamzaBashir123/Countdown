@@ -67,3 +67,45 @@
 
     
 }
+@media only screen and (max-width: 500px) {
+
+
+    .mainDiv{
+        height:fit-content;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    
+    
+    }
+    .left img{
+        border-radius: 10px;
+        margin-top: 10% !important;
+        width: 100%;
+        /* border:  2px solid green; */
+
+    }
+    .right{
+        /* border:  2px solid green; */
+        width: 100%;
+        margin-top: 50px !important;
+    }
+    .right h1,p{
+        color: slategray;
+    }
+    .dateMain{
+      
+        margin-bottom: 20px;
+    
+    }
+   
+    .dys h1,.hrs h1,.mins h1,.secs h1{
+        color: #d49b4d;
+
+    }
+   
+
+
+}
